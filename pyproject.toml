@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "alchemy-sql"
+version = "0.1.0"
+description = ""
+authors = ["Murilo Rocha"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+sqlalchemy = "^2.0.25"
+pyodbc = "^5.0.1"
+pandas = "^2.1.4"
+bs4 = "^0.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
